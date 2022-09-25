@@ -24,7 +24,7 @@ function createPromises(evt) {
   let delay = Number(form.elements.delay.value);
   const step = Number(form.elements.step.value);
   const amount = Number(form.elements.amount.value);
-  console.log(amount);
+  console.dir(amount);
 
   for (let i = 1; i <= amount; i += 1) {
     createPromise(i, delay)
